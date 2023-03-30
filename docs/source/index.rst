@@ -1,5 +1,8 @@
-Hazard Mapping System Fire documentation
+Hazard Mapping System Fire (HMSFirepy) documentation
 ===================================
+**HMSFirepy** make searching, downloading and retrieving data of the Hazard Mapping System easy.
+
+
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
@@ -20,5 +23,4 @@ Contents
 
    usage
    api
-This is one more example...
-IIIIIIINDEX
+   Examples
