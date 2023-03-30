@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'OSPO_HMS_Fire'
+project = 'HMSFirepy'
 copyright = '2022, Joel'
 author = 'Joel'
 
