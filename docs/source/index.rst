@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Hazard Mapping System Fire documentation
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
