@@ -27,4 +27,4 @@ For example:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   import HMSFirepy
