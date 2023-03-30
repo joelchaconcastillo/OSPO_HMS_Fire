@@ -24,3 +24,6 @@ For example:
    print(HMSF.getDataFrame())
    HMSF.plot()
 
+.. code-block:: console
+
+   (.venv) $ pip install lumache
