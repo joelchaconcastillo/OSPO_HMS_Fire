@@ -1,6 +1,6 @@
 Hazard Mapping System Fire (HMSFirepy) documentation
 ===================================
-**HMSFirepy** make searching, downloading and retrieving data of the Hazard Mapping System easy (<https://www.ospo.noaa.gov/Products/land/hms.html#maps/>)
+**HMSFirepy** make searching, downloading and retrieving data of the Hazard Mapping System easy (https://www.ospo.noaa.gov/Products/land/hms.html#maps/)
 
 It offers an easy-to-use class.
 
