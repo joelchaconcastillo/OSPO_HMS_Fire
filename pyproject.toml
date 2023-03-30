@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "HMSFirepy"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+authors = [{name = "Joel", email = "joel.chacon@cimat.mx"}]
 dynamic = ["version", "description"]
