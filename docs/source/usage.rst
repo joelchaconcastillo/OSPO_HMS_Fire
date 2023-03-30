@@ -6,29 +6,21 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use HMSFirepy, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install HMSFirepy
 
 Creating recipes
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
+To retrieve information of fires setting a ``startDate`` and ``endDate``
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+import HMSFirepy
+HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
+print(HMSF.getDataFrame())
+HMSF.plot()
 
