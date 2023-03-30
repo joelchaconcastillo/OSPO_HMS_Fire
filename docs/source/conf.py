@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'OSPO_HMS_Fire'
+copyright = '2022, Joel'
+author = 'Joel'
 
 release = '0.1'
 version = '0.1.0'
