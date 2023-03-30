@@ -18,13 +18,10 @@ Creating recipes
 To retrieve information of fires setting a ``startDate`` and ``endDate``
 
 For example:
-.. code-block:: console
-
->>>import HMSFirepy
->>>HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
->>>print(HMSF.getDataFrame())
->>>HMSF.plot()
 
 .. code-block:: console
 
    import HMSFirepy
+   HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
+   print(HMSF.getDataFrame())
+   HMSF.plot()
