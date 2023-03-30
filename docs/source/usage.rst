@@ -21,7 +21,7 @@ For example:
 
 .. code-block:: console
 
->>>import HMSFirepy
->>>HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
->>>print(HMSF.getDataFrame())
->>>HMSF.plot()
+   >>>import HMSFirepy
+   >>>HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
+   >>>print(HMSF.getDataFrame())
+   >>>HMSF.plot()
