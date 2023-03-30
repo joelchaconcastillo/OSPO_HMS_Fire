@@ -2,7 +2,9 @@ Hazard Mapping System Fire (HMSFirepy) documentation
 ===================================
 **HMSFirepy** make searching, downloading and retrieving data of the Hazard Mapping System easy (https://www.ospo.noaa.gov/Products/land/hms.html#maps/)
 
-It offers an easy-to-use class.
+This package is developmed as an effor to offer data more accessible outside the atmospheric scientific community.
+
+It offers an easy-to-use class, thus this 
 
 About Hazard Mapping System Fire
 ===================================
@@ -16,6 +18,7 @@ Satellite fire detection data are displayed using a color scheme based on the pi
 
 The ability to detect fires and smoke can be compromised by many factors, including cloud cover, tree canopy, terrain, the size of the fire or smoke plume, the time of the day, etc. The satellite sensors used to detect fires are sensitive to heat sources and reflected sunlight. Analysts do their best to distinguish between fires and other heat sources or highly reflective surfaces, such as factories, mines, gas flares, solar panels, clouds, etc. but some false detects do get included in the analysis.
 
+More information can be reviewed at https://www.ospo.noaa.gov/Products/land/hms.html#about 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
