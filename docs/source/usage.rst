@@ -6,7 +6,7 @@ Installation
 pip installation
 ------------
 
-To use HMSFirepy, first install it using pip:
+To use HMSFire, first install it using pip:
 
 .. code-block:: console
 
