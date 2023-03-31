@@ -1,10 +1,11 @@
 Examples
 =====
 
-.. Example 1 Retrieving information given a startdate and enddate:
+.. Example 1 
+Retrieving information given a startdate and enddate:
    
    
-.. code-block:: console
+.. code-block:: python
 
    from OSPO.HMSFire import HMSF
    Fires = HMSF.HMSFire(startDate='2023-01-01', endDate='2023-02-01')
