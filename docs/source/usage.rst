@@ -11,7 +11,8 @@ To use HMSFirepy, first install it using pip:
 .. code-block:: console
 
    $ pip install HMSFire
-   
+
+This package can be found at https://pypi.org/project/HMSFire/
 
 Technical requirements
 ----------------
