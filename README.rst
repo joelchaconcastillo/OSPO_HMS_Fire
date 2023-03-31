@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Hazard Mapping System Fire (HMSFire) documentation 
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub includes information of HMSFire that uses the Sphinx docs.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://ospo-hms-fire.readthedocs.io/en/latest/index.html#
