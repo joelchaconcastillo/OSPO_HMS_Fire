@@ -72,4 +72,11 @@ Example 9 conversion to Xarray
 
 .. code-block:: python
    xrdata  = HMSF.getXarray()
-   
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   notebooks/Example1
