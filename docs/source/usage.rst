@@ -35,7 +35,7 @@ To retrieve information of fires at least is needed a ``startDate`` and ``endDat
 
 For example:
 
-.. code-block:: console
+.. code-block:: python
 
    from OSPO.HMSFire import HMSF
    Fires = HMSF.HMSFire(startDate='2023-01-01', endDate='2023-02-01')
