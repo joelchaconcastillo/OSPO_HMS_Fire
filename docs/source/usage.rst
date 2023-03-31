@@ -13,7 +13,7 @@ To use HMSFirepy, first install it using pip:
    $ pip install HMSFire
    
 
-Creating recipes
+Small example
 ----------------
 
 To retrieve information of fires setting a ``startDate`` and ``endDate``
@@ -32,3 +32,4 @@ For example:
    Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
    minlon, minlat, maxlon, maxlat = Fires.getBoundingBoxState(state='Texas')
    Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
+   
