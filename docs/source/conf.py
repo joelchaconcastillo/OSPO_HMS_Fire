@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'HMSFirepy'
-copyright = '2022, Joel'
+project = 'HMSFire'
+copyright = '2023, Joel'
 author = 'Joel'
 
 release = '0.1'
