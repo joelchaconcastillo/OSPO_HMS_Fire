@@ -1,12 +1,13 @@
 Hazard Mapping System Fire (HMSFire) documentation
 ===================================
-**HMSFire** make searching, downloading and retrieving data of the Hazard Mapping System easy (https://www.ospo.noaa.gov/Products/land/hms.html#maps/)
+**HMSFire** makes searching, downloading and retrieving data of the Hazard Mapping System easy.
+The information used by this tool is taken from https://www.ospo.noaa.gov/Products/land/hms.html#maps/
 
-This package is developed as an effor to offer data more accessible outside the atmospheric scientific community.
+This package is developed as an effort to offer data more accessible outside the atmospheric scientific community.
 
-It offers an easy-to-use class.
+This package offers an easy-to-use class that manages fire information from different satellites (e.g. NOAA 20, SUOMI NPP, GOES-EAST, MODIS TERRA, GOES-WEST)
 
-About Hazard Mapping System Fire
+Note that this package is a pilot product, any suggestion or idea to improve its usability will be appreciated, please contact to joel.chacon@cimat.mx   
 ===================================
 
 Users should note:
