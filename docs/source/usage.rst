@@ -1,4 +1,4 @@
-Usage
+Installation
 =====
 
 .. _installation:
@@ -10,7 +10,8 @@ To use HMSFirepy, first install it using pip:
 
 .. code-block:: console
 
-   $ pip install HMSFirepy
+   $ pip install HMSFire
+   
 
 Creating recipes
 ----------------
@@ -21,7 +22,13 @@ For example:
 
 .. code-block:: console
 
-   >>>import HMSFirepy
-   >>>HMSF = HMSFire(startDate='2020-01-01', endDate='2023-02-01')
-   >>>print(HMSF.getDataFrame())
-   >>>HMSF.plot()
+   >>>from OSPO.HMSFire import HMSF
+   >>>Fires = HMSF.HMSFire(startDate='2023-01-01', endDate='2023-02-01')
+   >>>data = Fires.getDataFrame()
+   >>>Fires.plot()
+   >>>print(Fires.satelites())
+   >>>Fires.plot(minlon=-125, minlat=25, maxlon=-60, maxlat=50)
+   >>>minlon, minlat, maxlon, maxlat = Fires.getBoundingBoxCounty(county='Dallas')
+   >>>Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
+   >>>minlon, minlat, maxlon, maxlat = Fires.getBoundingBoxState(state='Texas')
+   >>>Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
