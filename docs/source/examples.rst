@@ -1,6 +1,9 @@
 Examples
 =====
 
+My Title
+*********
+
 Example 1 - Retrieving information given a startdate and enddate
 ---------------- 
 
