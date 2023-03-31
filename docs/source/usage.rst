@@ -30,7 +30,7 @@ This package has dependencies with the modules:
 Test
 ----------------
 
-To retrieve information of fires setting a ``startDate`` and ``endDate``
+To retrieve information of fires at least is needed a ``startDate`` and ``endDate``
 
 For example:
 
