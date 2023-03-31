@@ -27,7 +27,7 @@ This package has dependencies with the modules:
    In this preliminary version each query will download each day fire information, therefore larger ranges of time will require download a large amount of information. 
 
 
-Small example
+Test
 ----------------
 
 To retrieve information of fires setting a ``startDate`` and ``endDate``
@@ -39,11 +39,5 @@ For example:
    from OSPO.HMSFire import HMSF
    Fires = HMSF.HMSFire(startDate='2023-01-01', endDate='2023-02-01')
    data = Fires.getDataFrame()
-   Fires.plot()
-   print(Fires.satelites())
-   Fires.plot(minlon=-125, minlat=25, maxlon=-60, maxlat=50)
-   minlon, minlat, maxlon, maxlat = Fires.getBoundingBoxCounty(county='Dallas')
-   Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
-   minlon, minlat, maxlon, maxlat = Fires.getBoundingBoxState(state='Texas')
-   Fires.plot(minlon=minlon, minlat=minlat, maxlon=maxlon, maxlat=maxlat)
-   
+   print(data)
+   Fires.plot()   
