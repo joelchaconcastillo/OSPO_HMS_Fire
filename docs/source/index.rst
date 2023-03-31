@@ -1,10 +1,10 @@
-Hazard Mapping System Fire (HMSFirepy) documentation
+Hazard Mapping System Fire (HMSFire) documentation
 ===================================
-**HMSFirepy** make searching, downloading and retrieving data of the Hazard Mapping System easy (https://www.ospo.noaa.gov/Products/land/hms.html#maps/)
+**HMSFire** make searching, downloading and retrieving data of the Hazard Mapping System easy (https://www.ospo.noaa.gov/Products/land/hms.html#maps/)
 
-This package is developmed as an effor to offer data more accessible outside the atmospheric scientific community.
+This package is developed as an effor to offer data more accessible outside the atmospheric scientific community.
 
-It offers an easy-to-use class, thus this 
+It offers an easy-to-use class.
 
 About Hazard Mapping System Fire
 ===================================
