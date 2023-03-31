@@ -3,7 +3,7 @@ Usage
 
 .. _installation:
 
-Installation
+pip installation
 ------------
 
 To use HMSFirepy, first install it using pip:
@@ -12,6 +12,20 @@ To use HMSFirepy, first install it using pip:
 
    $ pip install HMSFire
    
+
+Technical requirements
+----------------
+This package has dependencies with the modules:
+
+* basemap.
+* pandas.
+* matplotlib.
+* requests.
+* datetime.
+
+.. warning :
+   In this preliminary version each query will download each day fire information, therefore larger ranges of time will require download a large amount of information. 
+
 
 Small example
 ----------------
